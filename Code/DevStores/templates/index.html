@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>{{title}}</title>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="{% static 'css/index.css' %}">
+        <link rel="stylesheet" href="{% static 'css/index2.css' %}">
+        
+    </head>
+    <body>
+        <div class='container'>
+            <div class='jumbotron'>
+                <header>
+                    <nav class='navbar navbar-expand-lg '>
+                        <ul class='navbar-nav ml-auto'>
+                            <li class="nav-item"><a href="{% url 'shop'  %}" class="nav-link"><i class="fa fa-home"></i> Home</a></li>
+                            <li class="nav-item"><a href=''  class="nav-link"><i class="fa fa-shopping-cart"></i> My Cart</a></li>
+                            <li class="nav-item"><a href="{% url 'sign_up'  %}" class="nav-link"><i class="fa fa-user"></i> SignIn</a></li>
+                        </ul>
+
+                    </nav>
+                </header>
+            </div>
+            <div>
+                <main>
+                    
+                    <div id='start_page'>
+        
+                        <a href='shop'>Shop now</a>
+                    </div>
+                    
+                </main>
+            </div>
+            <div class='jumbotron' style="margin-top:60px;">
+                <footer>
+                    <nav>
+                        Find us on
+                        <ul>
+                            <li><a href='#'></a></li>
+
+                        </ul>
+
+                    </nav>
+                </footer>
+            </div>
+        
+        
+        </div>
+    </body>
+</html>
+
+
+    
+    

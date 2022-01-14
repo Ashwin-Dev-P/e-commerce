@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class='row'>
+
+    {% for dress in dresses %}
+        
+            <div class='col-xs-12 col-lg-4 product'>
+                <a href='view/{{dress.id}}'>
+                    <div class="card">
+                        <image class="card-img-top" src="{{dress.img.url}}" width="400" height="300" >
+                        
+                        <div class="card-body">
+                            <h5 class="card-title">{{dress.name}}</h5>
+                            <h4><span class="badge badge-info">Rs.{{dress.price}}</span></h4>
+                            
+                            
+                        </div>
+                    </div>
+                </a>
+            </div>
+        
+    {% endfor %}
+
+
+</div>
+{% endblock %}

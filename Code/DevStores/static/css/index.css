@@ -1,0 +1,77 @@
+.jumbotron{
+    background-color: rgba(198, 188, 189, 0.12);
+    font-size: 20px;
+    padding: 2px;
+}
+
+.nav-item{
+    padding-left: 10px;
+}
+
+
+
+a:hover{
+    text-decoration: none;
+}
+
+.product{
+    margin-bottom: 40px;
+}
+
+textarea{
+    width: 90%;
+    margin: 5%;
+}
+
+#exampleFormControlTextarea1{
+    width: 90%;
+}
+
+#customer_review_button{
+    float:right;
+    margin: 0px 20px 20px 0px;
+}
+
+.vertical_scroll{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.card{
+    margin-bottom: 20px;
+}
+
+.pagination_arrow{
+    margin: 40px;
+}
+
+.review{
+    width: 100%;
+    border-bottom: 1px solid #EAEDED ;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    margin-left: 10%;
+    width:80%;
+
+    padding: 30px;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #CCD1D1; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #85929E; 
+  }

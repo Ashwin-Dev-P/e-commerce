@@ -1,0 +1,27 @@
+
+
+body{
+    margin: 0px;
+    /*min-height: 50vh;*/
+
+    
+    background-image: url("../images/background4.jpeg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+
+#start_page{
+    min-height: 70vh;
+    text-align: center;
+}
+
+.jumbotron{
+    background-color: rgba(215, 207, 207, 0);
+    color: #007bff;
+}
+
+
+
+
